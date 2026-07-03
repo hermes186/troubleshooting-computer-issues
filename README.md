@@ -1,6 +1,6 @@
 # Troubleshooting Computer Issues
 
-An agentic skill package for **OpenClaw / Gemini CLI** designed to systematically diagnose and resolve computer configuration errors, software installation issues, network anomalies, and runtime crashes.
+An agentic skill package for **AI Agent** designed to systematically diagnose and resolve computer configuration errors, software installation issues, network anomalies, and runtime crashes.
 
 ---
 
