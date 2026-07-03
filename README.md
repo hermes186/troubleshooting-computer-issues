@@ -1,6 +1,7 @@
 # Troubleshooting Computer Issues
 
 An agentic skill package for **AI Agent CLIs (OpenClaw, Gemini CLI, Claude Code)** designed to systematically diagnose and resolve computer configuration errors, software installation issues, network anomalies, and runtime crashes.
+Published on ClawHub: [hermes186/troubleshooting-computer-issues](https://clawhub.ai/hermes186/skills/troubleshooting-computer-issues)
 
 ---
 
@@ -45,7 +46,8 @@ OpenClaw supports direct installation from GitHub or the ClawHub registry:
   ```bash
   openclaw skills install @hermes186/troubleshooting-computer-issues --global
   ```
-  *(Or if using the standalone `clawhub` CLI: `clawhub install troubleshooting-computer-issues`)*
+  * Standalone CLI: `clawhub install troubleshooting-computer-issues`
+  * Repository Link: [ClawHub Skill Page](https://clawhub.ai/hermes186/skills/troubleshooting-computer-issues)
 
 ---
 
