@@ -1,10 +1,6 @@
 # Troubleshooting Computer Issues
 
-<<<<<<< HEAD
-An agentic skill package for **AI Agent** designed to systematically diagnose and resolve computer configuration errors, software installation issues, network anomalies, and runtime crashes.
-=======
 An agentic skill package for **AI Agent CLIs (OpenClaw, Gemini CLI, Claude Code)** designed to systematically diagnose and resolve computer configuration errors, software installation issues, network anomalies, and runtime crashes.
->>>>>>> eae723a (update detailed CLI install guides in README)
 
 ---
 
