@@ -1,6 +1,10 @@
 # Troubleshooting Computer Issues
 
+<<<<<<< HEAD
 An agentic skill package for **AI Agent** designed to systematically diagnose and resolve computer configuration errors, software installation issues, network anomalies, and runtime crashes.
+=======
+An agentic skill package for **AI Agent CLIs (OpenClaw, Gemini CLI, Claude Code)** designed to systematically diagnose and resolve computer configuration errors, software installation issues, network anomalies, and runtime crashes.
+>>>>>>> eae723a (update detailed CLI install guides in README)
 
 ---
 
@@ -29,22 +33,57 @@ troubleshooting-computer-issues/
 
 ## 🛠️ Installation & Usage
 
-### Via ClawHub (Recommended)
-This skill is officially published on ClawHub! You can install it automatically using:
+You can install this skill automatically or manually depending on your agent platform:
 
-```bash
-clawhub install hermes186/troubleshooting-computer-issues
-```
+### 1. For OpenClaw Users
+OpenClaw supports direct installation from GitHub or the ClawHub registry:
 
-Detailed page: [troubleshooting-computer-issues on ClawHub](https://clawhub.ai/hermes186/skills/troubleshooting-computer-issues)
+* **From GitHub (Recommended)**:
+  Run this command in your terminal to install the skill globally:
+  ```bash
+  openclaw skills install git:hermes186/troubleshooting-computer-issues --global
+  ```
+  *(To install it only for your current project, omit the `--global` flag)*
 
-### Manual Installation
-Clone or copy this folder directly into your global agent skills directory:
+* **From ClawHub Registry**:
+  ```bash
+  openclaw skills install @hermes186/troubleshooting-computer-issues --global
+  ```
+  *(Or if using the standalone `clawhub` CLI: `clawhub install troubleshooting-computer-issues`)*
 
-```bash
-# Example for Gemini / OpenClaw global skills directory
-cp -r troubleshooting-computer-issues ~/.gemini/config/skills/
-```
+---
+
+### 2. For Claude Code Users
+Claude Code automatically discovers skills placed in its designated skill directories. Clone this repository directly:
+
+* **Global Installation** (available across all projects):
+  ```bash
+  git clone https://github.com/hermes186/troubleshooting-computer-issues.git ~/.claude/skills/troubleshooting-computer-issues
+  ```
+* **Project-Specific Installation**:
+  Run this inside your project root directory:
+  ```bash
+  git clone https://github.com/hermes186/troubleshooting-computer-issues.git .claude/skills/troubleshooting-computer-issues
+  ```
+
+---
+
+### 3. For Gemini CLI Users
+Gemini CLI auto-discovers skills from its config directory or local workspace:
+
+* **Global Installation** (Windows PowerShell):
+  ```powershell
+  git clone https://github.com/hermes186/troubleshooting-computer-issues.git $env:USERPROFILE\.gemini\config\skills\troubleshooting-computer-issues
+  ```
+* **Global Installation** (macOS / Linux):
+  ```bash
+  git clone https://github.com/hermes186/troubleshooting-computer-issues.git ~/.gemini/config/skills/troubleshooting-computer-issues
+  ```
+* **Project-Specific Installation**:
+  Run this inside your project root directory:
+  ```bash
+  git clone https://github.com/hermes186/troubleshooting-computer-issues.git .agents/skills/troubleshooting-computer-issues
+  ```
 
 ---
 
